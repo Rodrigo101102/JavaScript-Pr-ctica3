@@ -9,6 +9,5 @@ function fibonacci(n) {
   return fibSequence;
 }
 
-// Ejemplo de uso:
 const n = 10;
 console.log(fibonacci(n));
