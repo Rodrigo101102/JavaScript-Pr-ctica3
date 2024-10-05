@@ -10,4 +10,4 @@ function fibonacci(n) {
 }
 
 const n = 10;
-console.log(fibonacci(n));
+console.log(fibonacci(n)); 
