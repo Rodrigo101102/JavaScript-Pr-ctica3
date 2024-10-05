@@ -1,12 +1,12 @@
 function fibonacci(n) {
-  let fibSequence = [0, 1]; 
-  if (n <= 1) return fibSequence.slice(0, n);
+  let e = [0, 1]; 
+  if (n <= 1) return e.slice(0, n);
 
   for (let i = 2; i < n; i++) {
-    fibSequence.push(fibSequence[i - 1] + fibSequence[i - 2]);
+    e.push(e[i - 1] + e[i - 2]);
   }
 
-  return fibSequence;
+  return e;
 }
 
 const n = 10;
