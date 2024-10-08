@@ -28,7 +28,7 @@
             const imc = this.calcularImc();
             const estadoSalud = this.estadoSalud(imc);
             const agua = this.calcularAgua();
-            return `Su IMC es ${imc} usted se encuentra en ${estadoSalud}, la cantidad de agua que le recomendamos que tome  es de  ${agua}L diarias `
+            return `Hola ${this.nombre} ${this.apellido} tu IMC es ${imc} usted se encuentra en ${estadoSalud}, la cantidad de agua que le recomendamos que tome  es de  ${agua}L diarias `
         }
     }
     function main(){
@@ -42,7 +42,7 @@
             resultado.textContent=usuario.mostrarInformacion();
             document.getElementById('nombres').value = "";
             document.getElementById('apellido').value = "";
-            document.getElementById('altura').value = "";
+            document.getElemeRntById('altura').value = "";
             document.getElementById('peso').value = "";
         }
         else{
