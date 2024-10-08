@@ -8,12 +8,30 @@
 </head>
 <body>
     <script src="ejercicio7.js"></script>
-    <div clas="bordes_general">
+    <div class="bordes_general">
             <div class="contenedor_cabecera">
-                <input class="header_input" type="text">
-                <input class="header_buscar_lupa" src="../imagenes/icono_buscador.png" type="image">
+                <img src="../imagenes/imc.png">
+                <p>Indice de Masa Corporal</p>
             </div>
-        
+            <div class="contenedor2">
+                <div class="contenedor2_1">
+                    <label class="label_general_2">Nombres</label>
+                    <input class="input_contenedor2"type="text" id="nombres">
+                    <label class="label_general_2">Apellidos</label>
+                    <input class="input_contenedor2"type="text" id="apellido">
+                    <label class="label_general_2">Altura (m)</label>
+                    <input class="input_contenedor2"type="number" id="altura">
+                    <label class="label_general_2">Peso (kg)</label>
+                    <input class="input_contenedor2"type="number" id="peso">
+                    <input class="btn_enviar"type="button" value="Enviar" onclick="main()">
+                </div>
+                <div class="contenedor2_2">
+                    <img src="../imagenes/IMC_3.png" alt="">
+                </div>
+            </div>
+            <div class="contenedor3">
+                <p id="resultado"></p>
+            </div>
     </div>
 
 </body>
